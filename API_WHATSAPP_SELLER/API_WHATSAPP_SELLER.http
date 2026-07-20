@@ -1,0 +1,6 @@
+@API_WHATSAPP_SELLER_HostAddress = http://localhost:5017
+
+GET {{API_WHATSAPP_SELLER_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
