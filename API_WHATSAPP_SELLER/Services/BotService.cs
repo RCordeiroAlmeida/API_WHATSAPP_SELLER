@@ -52,13 +52,13 @@ namespace API_WHATSAPP_SELLER.Services
                     await ProcessarMenu(conversa, mensagem);
                     break;
 
-                case EtapaConversa.NovoPedido:
-                    await ProcessarNovoPedido(conversa, mensagem);
-                    break;
+                // case EtapaConversa.NovoPedido:
+                //     await ProcessarNovoPedido(conversa, mensagem);
+                //     break;
 
-                case EtapaConversa.AcompanhandoPedido:
-                    await ProcessarAcompanhamentoPedido(conversa, mensagem);
-                    break;
+                // case EtapaConversa.AcompanhandoPedido:
+                //     await ProcessarAcompanhamentoPedido(conversa, mensagem);
+                //     break;
             }
         }
 
@@ -171,10 +171,5 @@ namespace API_WHATSAPP_SELLER.Services
                     break;
             }
         }
-
-        private async Task ProcessarNovoPedido(Conversa conversa, string )
-        private async Task ProcessarAcompanhamento
-
-
     }
 }
